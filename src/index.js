@@ -1,6 +1,18 @@
-import React from "react";
-import reactDom from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+//import App from './App';
+//import reportWebVitals from './reportWebVitals';
+import "bootstrap/dist/css/bootstrap.css"
 
-const element = <h1>hello world</h1>;
+const element = <h1>I am FrontEnd developer</h1>
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    {element}
+  </React.StrictMode>
+);
 
-reactDom.render(element, document.getElementById('#root'));
+//auto import
+//material icon theme
+//prettier
